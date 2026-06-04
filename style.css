@@ -1,0 +1,37 @@
+body{
+    margin:0;
+    font-family:Arial;
+}
+
+nav{
+    background:#333;
+    color:white;
+    padding:15px;
+}
+
+.container{
+    display:flex;
+    gap:20px;
+    padding:20px;
+}
+
+.box{
+    flex:1;
+    background:lightblue;
+    padding:40px;
+    text-align:center;
+}
+
+/* Mobile Responsive */
+@media (max-width:768px){
+
+.container{
+    flex-direction:column;
+}
+
+.box{
+    font-size:18px;
+    padding:20px;
+}
+
+}
